@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: yolov8n.pt
+model: ultralytics/cfg/models/v8/hybrid_yolov8.yaml
 data: C:/Users/y0b74/marine_project/marine_dataset.yaml
 epochs: 150
 time: null
@@ -12,8 +12,8 @@ save_period: -1
 cache: false
 device: '0'
 workers: 8
-project: marine_runs
-name: yolov8n_baseline
+project: runs/hybrid
+name: hybrid_msrcb_full
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -106,4 +106,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\y0b74\runs\detect\marine_runs\yolov8n_baseline
+save_dir: C:\Users\y0b74\ultralytics\runs\detect\runs\hybrid\hybrid_msrcb_full
