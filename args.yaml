@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ultralytics/cfg/models/v8/hybrid_yolov8.yaml
+model: ultralytics/cfg/models/v8/hybrid_yolov8_msrcb_cbam.yaml
 data: C:/Users/y0b74/marine_project/marine_dataset.yaml
 epochs: 150
 time: null
@@ -13,7 +13,7 @@ cache: false
 device: '0'
 workers: 8
 project: runs/hybrid
-name: hybrid_msrcb_full
+name: hybrid_msrcb_cbam_full
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -106,4 +106,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\y0b74\ultralytics\runs\detect\runs\hybrid\hybrid_msrcb_full
+save_dir: C:\Users\y0b74\ultralytics\runs\detect\runs\hybrid\hybrid_msrcb_cbam_full
