@@ -1,0 +1,18 @@
+path: C:/Users/y0b74/marine_project/Hybrid_Marine_COCO
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Coral
+  1: Jellyfish
+  2: Sea-Urchin
+  3: Shark
+  4: Starfish
+  5: Turtle
+  6: Diver
+  7: Holothurian
+  8: Echinus
+  9: Sea_Anemone
+  10: Cuttle_fish
+  11: Scallop
